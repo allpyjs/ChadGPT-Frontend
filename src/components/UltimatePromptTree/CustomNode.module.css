@@ -1,0 +1,63 @@
+.root {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  height: 22px;
+  padding-inline-end: 8px;
+}
+
+.root.isSelected {
+  color: #20FDC9;
+}
+
+
+.expandIconWrapper {
+  align-items: center;
+  font-size: 0;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  justify-content: center;
+  width: 24px;
+  transition: transform linear 0.1s;
+  transform: rotate(0deg);
+}
+
+.expandIconWrapper.isOpen {
+  transform: rotate(90deg);
+}
+
+.labelGridItem {
+  padding-inline-start: 8px;
+  justify-content: start;
+}
+
+.inputWrapper {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: flex-start;
+}
+
+.textField input {
+  font-size: 15px;
+  padding: 6px 0;
+  color: white;
+}
+
+.editButton {
+  padding: 6px;
+  margin: 0px;
+}
+
+.editIcon {
+  font-size: 15px;
+}
+
+.nodeInput {
+  width: 100px;
+}
+
+.nodeLabel {
+  padding-right: 15px;
+}

@@ -1,0 +1,25 @@
+.app {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+  }
+  
+  .current {
+    background-color: #f3f3f3;
+    margin: 8px;
+    padding: 8px;
+  }
+  
+  .currentLabel {
+    font-weight: bold;
+    margin-inline-start: 0.5em;
+  }
+  
+  .draggingSource {
+    opacity: 0.3;
+  }
+  
+  .dropTarget {
+    background-color: #e8f0fe;
+  }
+  

@@ -1,0 +1,20 @@
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: darkgrey; /* Color of the draggable scrollbar area */
+    border-radius: 12px;        /* Rounded corners */
+    border: 3px solid darkgrey;  /* Border around the draggable area */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #464b54;        /* Color of the track */
+    border-radius: 10px;        /* Rounded corners of the track */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px;     
+    height: 10px;           /* Width of the scrollbar */
+}
+
+.custom-scrollbar {
+    scrollbar-width: thin;      /* For Firefox */
+    scrollbar-color: darkgrey #ffffff; /* For Firefox, scrollbar-color: thumb track; */
+}

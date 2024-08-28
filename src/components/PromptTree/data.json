@@ -1,0 +1,44 @@
+[
+  {
+    "id": "7813a8f9-e5e7-4e91-9c06-a3b60f7a1d58",
+    "parent": "e90e14b5-5001-40eb-ab39-8fe7402687bf",
+    "droppable": false,
+    "text": "New chat",
+    "type": "File"
+  },
+  {
+    "id": "da85a09b-bb22-4d54-97e6-d3ecfd930ee4",
+    "parent": "c9a400b3-9036-4638-8323-566a91310a90",
+    "droppable": false,
+    "text": "New chat",
+    "type": "File"
+  },
+  {
+    "id": 1,
+    "parent": 0,
+    "droppable": true,
+    "text": "History",
+    "type": "File"
+  },
+  {
+    "id": "c9a400b3-9036-4638-8323-566a91310a90",
+    "parent": 1,
+    "droppable": true,
+    "text": "New Folder",
+    "type": "Folder"
+  },
+  {
+    "id": "e3168b69-25e7-4dde-b6ef-aba1139b0b59",
+    "parent": 1,
+    "droppable": true,
+    "text": "New Folder",
+    "type": "Folder"
+  },
+  {
+    "id": "e90e14b5-5001-40eb-ab39-8fe7402687bf",
+    "parent": 1,
+    "droppable": true,
+    "text": "New Folder",
+    "type": "Folder"
+  }
+]
